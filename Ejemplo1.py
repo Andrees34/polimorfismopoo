@@ -18,7 +18,7 @@ class Gato (Animal):
     return "Miau"
 
 #Creacion de la funcion "Hacer sonido"
-hacer_sonido(animal:Animal):
+def hacer_sonido(animal:Animal):
   print (animal.sonido())
 
 #Creacion de los objetos 
